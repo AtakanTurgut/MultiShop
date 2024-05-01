@@ -45,3 +45,4 @@ C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Cat
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\MultiShop.Catalog.pdb
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\MultiShop.Catalog.genruntimeconfig.cache
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\ref\MultiShop.Catalog.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\MultiShop.Catalog.sourcelink.json

@@ -25,7 +25,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok(values);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCategoryById(string id)
         {
             var value = await _categoryService.GetByIdCategoryAsync(id);
