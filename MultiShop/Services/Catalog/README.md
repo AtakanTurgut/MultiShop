@@ -19,4 +19,7 @@ Build Info: {
 ```
 
 - If you cannot see the version number in the Windows environment, you need to add the path of `MongoDB (bin folder)` to the `system variables (PATH)`.
+
+<br/>
+
 ![](https://raw.githubusercontent.com/AtakanTurgut/MultiShop/main/images/EnvironmentVariables.PNG)
