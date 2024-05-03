@@ -1,6 +1,17 @@
 # MultiShop
 Asp.Net Core MultiShop Microservice E-Commerce Site
 
+-----
+
+## Project References
+```cs
+    MultiShop.Order:
+
+    MultiShop.Order.Application = MultiShop.Order.Domain
+    MultiShop.Order.Persistence = MultiShop.Order.Domain
+				                + MultiShop.Order.Application
+```
+
 ## Used Packages
 Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packages/Microsoft.AspNet.Identity.Core)" with the help of the `Tools > NuGet Package Manager > Package Manager Console`.
 
@@ -44,4 +55,22 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 - [Dapper 2.1.35](https://www.nuget.org/packages/Dapper/2.1.35)
 ```
     PM> NuGet\Install-Package Dapper -Version 2.1.35
+```
+
+### MultiShop.Order.Persistence
+- [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Design 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.SqlServer 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
 ```
