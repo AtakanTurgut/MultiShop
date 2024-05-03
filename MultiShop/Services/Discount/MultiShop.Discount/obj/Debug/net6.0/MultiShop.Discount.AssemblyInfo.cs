@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.Discount")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c280723dbcd0d7787441ca818a26d3921adfe92e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11e92b0099ca3167119b08ac09b7ad031ceefa18")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.Discount")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.Discount")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

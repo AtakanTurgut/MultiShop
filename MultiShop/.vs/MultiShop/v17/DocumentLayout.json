@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ordering.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
+              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T12:57:42.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T12:57:32.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T12:57:05.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
