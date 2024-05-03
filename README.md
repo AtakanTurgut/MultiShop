@@ -23,7 +23,7 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
     PM> NuGet\Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection -Version 12.0.1
 ```
 
-### MultiShopDiscountDb - MsSQL
+### MultiShop.Discount - MsSQL
 - [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
 ```
     PM> NuGet\Install-Package Microsoft.EntityFrameworkCore -Version 6.0.25
