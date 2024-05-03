@@ -1,15 +1,14 @@
 # MultiShop
-Asp.Net Core MultiShop Microservice E-Commerce Site
+Asp.Net Core MultiShop Microservice E-Commerce Site.
 
 -----
 
 ## Project References
 ```cs
-    MultiShop.Order:
-
+MultiShop.Order:
     MultiShop.Order.Application = MultiShop.Order.Domain
-    MultiShop.Order.Persistence = MultiShop.Order.Domain
-				                + MultiShop.Order.Application
+    MultiShop.Order.Persistence = MultiShop.Order.Domain + MultiShop.Order.Application
+    MultiShop.Order.WebApi      = MultiShop.Order.Domain + MultiShop.Order.Application + MultiShop.Order.Persistence
 ```
 
 ## Used Packages
