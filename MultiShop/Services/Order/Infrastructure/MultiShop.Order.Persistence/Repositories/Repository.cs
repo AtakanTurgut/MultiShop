@@ -46,9 +46,10 @@ namespace MultiShop.Order.Persistence.Repositories
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public Task UpdateAsync(T entity)
+        public async Task UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Update(entity);
+            await _context.SaveChangesAsync();   
         }
     }
 }

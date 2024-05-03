@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.Order.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02573883fa53eaf88d304aaf5a4bdb799daf3f42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea5ffd43fab8d71b2790a078442ae34a7d4763b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.Order.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.Order.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
