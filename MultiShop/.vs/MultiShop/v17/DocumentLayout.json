@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0981EA1-F1A9-41E6-BC55-721208DAE34C}|Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\infrastructure\\multishop.order.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0981EA1-F1A9-41E6-BC55-721208DAE34C}|Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj|solutionrelative:services\\order\\infrastructure\\multishop.order.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB33CC34-DEFD-4A91-9096-D339794F3222}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\multishop.order.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A87AA87-D232-4956-A593-B0286D098BB7}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\services\\order\\core\\multishop.order.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A87AA87-D232-4956-A593-B0286D098BB7}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ordering.cs",
-              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
-              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T12:57:42.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T12:57:32.427Z",
+              "WhenOpened": "2024-05-03T15:17:10.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
-              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\Repository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T12:57:05.338Z",
+              "WhenOpened": "2024-05-03T15:14:03.207Z",
               "EditorCaption": ""
             }
           ]
