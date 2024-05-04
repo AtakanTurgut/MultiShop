@@ -56,6 +56,16 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
     PM> NuGet\Install-Package Dapper -Version 2.1.35
 ```
 
+### MultiShop.Order.Application
+- [MediatR 12.2.0](https://www.nuget.org/packages/MediatR/12.2.0)
+```
+    PM> NuGet\Install-Package MediatR -Version 12.2.0
+```
+- [MediatR.Extensions.Microsoft.DependencyInjection 11.1.0](https://www.nuget.org/packages/MediatR.Extensions.Microsoft.DependencyInjection/11.1.0)
+```
+    PM> NuGet\Install-Package MediatR.Extensions.Microsoft.DependencyInjection -Version 11.1.0
+```
+
 ### MultiShop.Order.Persistence
 - [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
 ```
@@ -72,4 +82,14 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 - [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
 ```
     PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```
+
+### MultiShop.Order.WebApi
+- [MediatR 12.2.0](https://www.nuget.org/packages/MediatR/12.2.0)
+```
+    PM> NuGet\Install-Package MediatR -Version 12.2.0
+```
+- [MediatR.Extensions.Microsoft.DependencyInjection 11.1.0](https://www.nuget.org/packages/MediatR.Extensions.Microsoft.DependencyInjection/11.1.0)
+```
+    PM> NuGet\Install-Package MediatR.Extensions.Microsoft.DependencyInjection -Version 11.1.0
 ```
