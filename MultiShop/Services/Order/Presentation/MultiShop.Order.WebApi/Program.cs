@@ -1,9 +1,16 @@
-using MultiShop.Order.WebApi.Extensions;
+using MultiShop.Order.Application.Extensions;
+using MultiShop.Order.Application.Interfaces;
+using MultiShop.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
 // CQRS Registiration
 builder.Services.ConfigureCQRSRegistiration();
+
+// Mediator Registiration
+builder.Services.ConfigureMediatorRegistiration(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

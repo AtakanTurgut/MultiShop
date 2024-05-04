@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zey+J3uOhvfUaEi3t/eekLHUnO1GRVBt7gN/8tcL0NFvEvh/BEnT73P2RRmH+yfXojaozIch9mz6H23IV9XeRA==",
+  "dgSpecHash": "L5aM6SH57evQ9cJlbQjiwnOoUMF6646K4AZ7zkNsfYMHAEdg1hfswfesckYYXwUUIFpIb7OGgkHhnVSiEle53A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj",
   "expectedPackageFiles": [

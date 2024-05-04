@@ -65,6 +65,10 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
     PM> NuGet\Install-Package MediatR.Extensions.Microsoft.DependencyInjection -Version 11.1.0
 ```
+- [Microsoft.Extensions.Configuration.Abstractions 6.0.0](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Abstractions/6.0.0)
+```
+    PM> NuGet\Install-Package Microsoft.Extensions.Configuration.Abstractions -Version 6.0.0
+```
 
 ### MultiShop.Order.Persistence
 - [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
