@@ -43,7 +43,48 @@ container : 1433
 [Download](https://dbeaver.io/download/) DBeaver -> Windows (installer).
 
 ```
+1.
 SQL Server - port 1433
 Username : sa
 Password : Aa123456+
+
+2.
+SQL Server - port 1440
+Username : sa
+Password : Aa123456+
 ```
+
+## Migrations
+Use this commands for the `Migration Operations`:
+```cs
+    > dotnet ef migrations -h
+    > dotnet ef database -h
+```
+- Create Migration  
+```
+    > dotnet ef migrations add init 
+```
+- Update Data   (Add Configurations)
+```
+    > dotnet ef database update
+```
+- Drop the Database
+```
+    > dotnet ef database drop
+    ? Y
+```
+- Delete Migrations
+```
+    > del .\Migrations\
+    ? A
+```
+
+### Default MsSQL
+
+![](https://raw.githubusercontent.com/AtakanTurgut/MultiShop/main/images/MsSqlConDefault.PNG)
+
+### localhost,1440 MsSQL
+
+![](https://raw.githubusercontent.com/AtakanTurgut/MultiShop/main/images/MsSqlCon1440.PNG)
+
+![](https://raw.githubusercontent.com/AtakanTurgut/MultiShop/main/images/MsSqlFiles1440.PNG)

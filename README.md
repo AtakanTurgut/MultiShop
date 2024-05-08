@@ -97,3 +97,11 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
     PM> NuGet\Install-Package MediatR.Extensions.Microsoft.DependencyInjection -Version 11.1.0
 ```
+- [Microsoft.EntityFrameworkCore.Design 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```

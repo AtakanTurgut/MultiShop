@@ -1,10 +1,14 @@
 using MultiShop.Order.Application.Extensions;
 using MultiShop.Order.Application.Interfaces;
+using MultiShop.Order.Persistence.Context;
 using MultiShop.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+// Context
+builder.Services.AddDbContext<OrderContext>();
 
 // CQRS Registiration
 builder.Services.ConfigureCQRSRegistiration();
