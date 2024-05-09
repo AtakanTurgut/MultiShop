@@ -36,3 +36,65 @@ n
 
 Çıkış koduyla ilgili ayrıntılar için şu sayfaya bakın: https://aka.ms/templating-exit-codes#104
 ```
+
+## Portainer
+```cs
+http://localhost:9000/
+Username : admin
+Password : Aa123456789+
+```
+
+```bash
+App Templates
+SQL Server - linux container
+
+1.
+Name     : IdentityDb
+Password : Aa123456+
++ Hide advanced options
+- Published Ports
+host : 1433
+container : 1433
+
+> Deploy the container
+```
+
+# DBeaver
+```
+SQL Server - port 1433
+Username : sa
+Password : Aa123456+
+```
+
+## Migrations
+Use this commands for the `Migration Operations`:
+```cs
+    > dotnet ef migrations -h
+    > dotnet ef database -h
+```
+- Create Migration  
+```
+    > dotnet ef migrations add init 
+```
+- Update Data   (Add Configurations)
+```
+    > dotnet ef database update
+```
+- Drop the Database
+```
+    > dotnet ef database drop
+    ? Y
+```
+- Delete Migrations
+```
+    > del .\Migrations\
+    ? A
+```
+
+- [ ] If you get an error like this:
+```
+> Update-Database 
+To change the IDENTITY property of a column, the column needs to be dropped and recreated.
+``` 
+Remove `MultiShopIdentityDb` database from `DBeaver master - 1433 port`.
+Remove the `Migrations` folder in the `Data` folder and update the database (Update-Database) again via Migrations (Add-Migration init).
