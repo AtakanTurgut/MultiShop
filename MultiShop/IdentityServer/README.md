@@ -91,10 +91,24 @@ Use this commands for the `Migration Operations`:
     ? A
 ```
 
+-----
+
 - [ ] If you get an error like this:
 ```
 > Update-Database 
 To change the IDENTITY property of a column, the column needs to be dropped and recreated.
 ``` 
-Remove `MultiShopIdentityDb` database from `DBeaver master - 1433 port`.
-Remove the `Migrations` folder in the `Data` folder and update the database (Update-Database) again via Migrations (Add-Migration init).
+Remove `MultiShopIdentityDb` database from `DBeaver master - 1433 port`. <br />
+Remove the `Migrations` folder in the `Data` folder and update the database (`Update-Database`) again via Migrations (`Add-Migration init`).
+
+#### https://localhost:5001/api/Registers - POST
+Body - raw - JSON
+```json
+{
+    "UserName":"atakanturgut",
+    "Email":"atakan.trgt@hotmail.com",
+    "Name":"Atakan",
+    "Surname":"Turgut",
+    "Password":"Aa123456+"
+}
+```

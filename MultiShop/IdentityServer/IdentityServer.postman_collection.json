@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "1588e352-3417-4ed8-881d-8a6a5b6367d9",
+		"name": "IdentityServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27907837"
+	},
+	"item": [
+		{
+			"name": "Registers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:5001/"
+			},
+			"response": []
+		}
+	]
+}
