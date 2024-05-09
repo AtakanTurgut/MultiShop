@@ -9,9 +9,105 @@
 		{
 			"name": "Registers",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": "https://localhost:5001/"
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\":\"atakanturgut\",\r\n    \"Email\":\"atakan.trgt@hotmail.com\",\r\n    \"Name\":\"Atakan\",\r\n    \"Surname\":\"Turgut\",\r\n    \"Password\":\"Aa123456+\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:5001/api/Registers"
+			},
+			"response": []
+		},
+		{
+			"name": "Connect/Token/Visitor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "MultiShopVisitorId",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "multishopsecret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://localhost:5001/connect/token"
+			},
+			"response": []
+		},
+		{
+			"name": "Connect/Token/Manager",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "MultiShopManagerId",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "multishopsecret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://localhost:5001/connect/token"
+			},
+			"response": []
+		},
+		{
+			"name": "Connect/Token/Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "MultiShopAdminId",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "multishopsecret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://localhost:5001/connect/token"
 			},
 			"response": []
 		}

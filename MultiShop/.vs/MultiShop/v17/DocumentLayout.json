@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\identityserver\\multishop.identityserver\\multishop.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\multishop.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\identityserver\\multishop.identityserver\\controllers\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\controllers\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\excalibur\\desktop\\multiservice\\multishop\\identityserver\\multishop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7FC1A46-A840-4228-B764-97E2D7AAB039}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MultiShop.IdentityServer",
-              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
-              "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
-              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
-              "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-09T14:45:49.831Z",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Startup.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\Startup.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Startup.cs",
+              "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\Startup.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:30:04.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistersController.cs",
-              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Controllers\\RegistersController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\Controllers\\RegistersController.cs",
-              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Controllers\\RegistersController.cs",
-              "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\Controllers\\RegistersController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAABbAAAA",
+              "DocumentIndex": 0,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
+              "ToolTip": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
+              "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAUwDQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T14:35:45.298Z",
+              "WhenOpened": "2024-05-09T15:58:56.859Z",
               "EditorCaption": ""
             }
           ]

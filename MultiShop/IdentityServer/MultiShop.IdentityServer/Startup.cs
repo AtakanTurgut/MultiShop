@@ -30,7 +30,7 @@ namespace MultiShop.IdentityServer
         {
             services.AddControllersWithViews();
 
-            // Database Context
+            // Database Context !!!
             services.AddDbContext<ApplicationDbContext>(options =>
                 //options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -50,6 +50,8 @@ namespace MultiShop.IdentityServer
                 options.EmitStaticAudienceClaim = true;
             })
                 .AddInMemoryIdentityResources(Config.IdentityResources)
+                // Config ApiResources !!!
+                .AddInMemoryApiResources(Config.ApiResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)
                 .AddInMemoryClients(Config.Clients)
                 .AddAspNetIdentity<ApplicationUser>();

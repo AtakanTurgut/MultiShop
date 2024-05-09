@@ -112,3 +112,16 @@ Body - raw - JSON
     "Password":"Aa123456+"
 }
 ```
+
+#### https://localhost:5001/connect/token - POST
+Body - urlencoded
+```
+KEY                 VALUE
+client_id           MultiShopVisitorId -> MultiShopManagerId -> MultiShopAdminId*
+client_secret       multishopsecret*
+grant_type          client_credentials
+```
+
+[jwt.io](https://jwt.io/)
+<br />
+![](https://raw.githubusercontent.com/AtakanTurgut/MultiShop/main/images/jwtAdminToken.PNG)
