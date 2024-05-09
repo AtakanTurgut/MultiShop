@@ -59,7 +59,7 @@ container : 1433
 > Deploy the container
 ```
 
-# DBeaver
+## DBeaver
 ```
 SQL Server - port 1433
 Username : sa
@@ -91,8 +91,6 @@ Use this commands for the `Migration Operations`:
     ? A
 ```
 
------
-
 - [ ] If you get an error like this:
 ```
 > Update-Database 
@@ -100,6 +98,8 @@ To change the IDENTITY property of a column, the column needs to be dropped and 
 ``` 
 Remove `MultiShopIdentityDb` database from `DBeaver master - 1433 port`. <br />
 Remove the `Migrations` folder in the `Data` folder and update the database (`Update-Database`) again via Migrations (`Add-Migration init`).
+
+-----
 
 #### https://localhost:5001/api/Registers - POST
 Body - raw - JSON
