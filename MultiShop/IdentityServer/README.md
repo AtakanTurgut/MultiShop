@@ -115,7 +115,9 @@ Body - raw - JSON
 
 #### https://localhost:5001/connect/token - POST
 Body - urlencoded
-```
+```cs
+-> Config.cs
+
 KEY                 VALUE
 client_id           MultiShopVisitorId -> MultiShopManagerId -> MultiShopAdminId*
 client_secret       multishopsecret*
