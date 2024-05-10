@@ -2,7 +2,8 @@
 Asp.Net Core MultiShop Microservice E-Commerce Site.
 
 ```py
-https://localhost:5001/api/     =>      Identity Server
+http://localhost:5001/api/      =>      Identity Server - Registers
+http://localhost:5001/connect/token
 https://localhost:7070/api/     =>      Catalog - Categories
 https://localhost:7071/api/     =>      Discount - Discounts
 https://localhost:7072/api/     =>      Order - Addresses
