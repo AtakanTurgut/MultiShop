@@ -1,6 +1,11 @@
 # MultiShop
 Asp.Net Core MultiShop Microservice E-Commerce Site.
 
+```py
+https://localhost:5001/     =>      Identity Server
+https://localhost:7070/     =>      Catalog - Categories
+https://localhost:7071/     =>      Discounts
+```
 -----
 
 ## Project References
