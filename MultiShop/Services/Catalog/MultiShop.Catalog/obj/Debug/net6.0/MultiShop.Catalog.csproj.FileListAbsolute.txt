@@ -46,3 +46,10 @@ C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Cat
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\MultiShop.Catalog.genruntimeconfig.cache
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\ref\MultiShop.Catalog.dll
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\obj\Debug\net6.0\MultiShop.Catalog.sourcelink.json
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
