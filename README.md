@@ -156,3 +156,40 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
   </ItemGroup>
 </Project>
 ```
+
+### MultiShop.Cargo
+
+```cs
+EntityLayer
+DataAccessLayer  =>  EntityLayer
+
+WebApi  =>  BusinessLayer + DataAccessLayer + DtoLayer + EntityLayer
+```
+
+#### MultiShop.Cargo.EntityLayer
+- [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Design 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.SqlServer 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```
+
+#### MultiShop.Cargo.WebApi
+- [Microsoft.EntityFrameworkCore.Design 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.25
+```
+- [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```
