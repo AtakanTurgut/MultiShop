@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "b88ae624-1c10-4ae1-9423-6d34f69dcccc",
+		"name": "MultiShop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27907837"
+	},
+	"item": [
+		{
+			"name": "Catalog - Categories > All",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7070/api/Categories"
+			},
+			"response": []
+		},
+		{
+			"name": "Discount - Discounts > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7071/api/Discounts"
+			},
+			"response": []
+		},
+		{
+			"name": "Order - Addresses > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7072/api/Addresses"
+			},
+			"response": []
+		}
+	]
+}

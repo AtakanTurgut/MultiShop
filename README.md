@@ -2,9 +2,10 @@
 Asp.Net Core MultiShop Microservice E-Commerce Site.
 
 ```py
-https://localhost:5001/     =>      Identity Server
-https://localhost:7070/     =>      Catalog - Categories
-https://localhost:7071/     =>      Discounts
+https://localhost:5001/api/     =>      Identity Server
+https://localhost:7070/api/     =>      Catalog - Categories
+https://localhost:7071/api/     =>      Discount - Discounts
+https://localhost:7072/api/     =>      Order - Addresses
 ```
 -----
 
@@ -38,6 +39,11 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
     PM> NuGet\Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection -Version 12.0.1
 ```
 
+- [Microsoft.AspNetCore.Authentication.JwtBearer 6.0.25](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 6.0.25
+```
+
 ### MultiShop.Discount - MsSQL
 - [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
 ```
@@ -59,6 +65,11 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 - [Dapper 2.1.35](https://www.nuget.org/packages/Dapper/2.1.35)
 ```
     PM> NuGet\Install-Package Dapper -Version 2.1.35
+```
+
+- [Microsoft.AspNetCore.Authentication.JwtBearer 6.0.25](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 6.0.25
 ```
 
 ### MultiShop.Order.Application
@@ -109,6 +120,11 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 - [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
 ```
     PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```
+
+- [Microsoft.AspNetCore.Authentication.JwtBearer 6.0.25](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 6.0.25
 ```
 
 ### MultiShop.IdentityServer

@@ -77,3 +77,4 @@ C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Order\Presentation\Mu
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Order\Presentation\MultiShop.Order.WebApi\bin\Debug\net6.0\MultiShop.Order.Application.pdb
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Order\Presentation\MultiShop.Order.WebApi\bin\Debug\net6.0\MultiShop.Order.Domain.pdb
 C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Order\Presentation\MultiShop.Order.WebApi\bin\Debug\net6.0\MultiShop.Order.Persistence.pdb
+C:\Users\Excalibur\Desktop\MultiService\MultiShop\Services\Order\Presentation\MultiShop.Order.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
