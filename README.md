@@ -13,7 +13,7 @@ https://localhost:7073/api/     =>      Cargo - CargoCompanies
 
 ## Project References
 ```cs
-MultiShop.Order:
+MultiShop.Order:                - Onion Architecture
     MultiShop.Order.Domain
     Application  =>  Domain
     Persistence  =>  Application + Domain
@@ -21,7 +21,7 @@ MultiShop.Order:
     WebApi       =>  Persistence + Application + Domain
 ```
 ```cs
-MultiShop.Cargo:
+MultiShop.Cargo:                - Layered Architecture
     MultiShop.Cargo.EntityLayer
     DataAccessLayer  =>  EntityLayer
     BusinessLayer    =>  DataAccessLayer + EntityLayer
