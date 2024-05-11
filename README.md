@@ -26,7 +26,7 @@ MultiShop.Cargo:
     DataAccessLayer  =>  EntityLayer
     BusinessLayer    =>  DataAccessLayer + EntityLayer
 
-    WebApi  =>  BusinessLayer + DataAccessLayer + DtoLayer + EntityLayer
+    WebApi           =>  BusinessLayer + DataAccessLayer + DtoLayer + EntityLayer
 ```
 
 ## Used Packages
