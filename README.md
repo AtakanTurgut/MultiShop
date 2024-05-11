@@ -13,9 +13,19 @@ https://localhost:7072/api/     =>      Order - Addresses
 ## Project References
 ```cs
 MultiShop.Order:
-    MultiShop.Order.Application = MultiShop.Order.Domain
-    MultiShop.Order.Persistence = MultiShop.Order.Domain + MultiShop.Order.Application
-    MultiShop.Order.WebApi      = MultiShop.Order.Domain + MultiShop.Order.Application + MultiShop.Order.Persistence
+    MultiShop.Order.Domain
+    Application  =>  Domain
+    Persistence  =>  Application + Domain
+    
+    WebApi       =>  Persistence + Application + Domain
+```
+```cs
+MultiShop.Cargo:
+    MultiShop.Cargo.EntityLayer
+    DataAccessLayer  =>  EntityLayer
+    BusinessLayer    =>  DataAccessLayer + EntityLayer
+
+    WebApi  =>  BusinessLayer + DataAccessLayer + DtoLayer + EntityLayer
 ```
 
 ## Used Packages
@@ -158,14 +168,6 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
 
 ### MultiShop.Cargo
-
-```cs
-EntityLayer
-DataAccessLayer  =>  EntityLayer
-
-WebApi  =>  BusinessLayer + DataAccessLayer + DtoLayer + EntityLayer
-```
-
 #### MultiShop.Cargo.EntityLayer
 - [Microsoft.EntityFrameworkCore 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.25)
 ```

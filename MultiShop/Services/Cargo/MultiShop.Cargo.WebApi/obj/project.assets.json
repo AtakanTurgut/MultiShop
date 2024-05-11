@@ -873,6 +873,10 @@
       "MultiShop.Cargo.BusinessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MultiShop.Cargo.DataAccessLayer": "1.0.0",
+          "MultiShop.Cargo.EntityLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MultiShop.Cargo.BusinessLayer.dll": {}
         },

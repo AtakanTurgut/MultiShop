@@ -31,7 +31,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\MultiShop.Cargo.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\MultiShop.Cargo.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.EntityLayer\\MultiShop.Cargo.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Excalibur\\Desktop\\MultiService\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.EntityLayer\\MultiShop.Cargo.EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
