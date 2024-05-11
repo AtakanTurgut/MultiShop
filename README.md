@@ -7,6 +7,7 @@ http://localhost:5001/connect/token
 https://localhost:7070/api/     =>      Catalog - Categories
 https://localhost:7071/api/     =>      Discount - Discounts
 https://localhost:7072/api/     =>      Order - Addresses
+https://localhost:7073/api/     =>      Cargo - CargoDetails
 ```
 -----
 
@@ -194,4 +195,9 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 - [Microsoft.EntityFrameworkCore.Tools 6.0.25](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/6.0.25)
 ```
     PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 6.0.25
+```
+
+- [Microsoft.AspNetCore.Authentication.JwtBearer 6.0.25](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25)
+```
+    PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 6.0.25
 ```

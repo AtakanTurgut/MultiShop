@@ -497,6 +497,10 @@
         }
       },
       "MultiShop.Cargo.BusinessLayer/1.0.0": {
+        "dependencies": {
+          "MultiShop.Cargo.DataAccessLayer": "1.0.0",
+          "MultiShop.Cargo.EntityLayer": "1.0.0"
+        },
         "runtime": {
           "MultiShop.Cargo.BusinessLayer.dll": {}
         }

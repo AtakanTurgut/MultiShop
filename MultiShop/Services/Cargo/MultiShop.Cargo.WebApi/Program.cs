@@ -1,6 +1,15 @@
+using MultiShop.Cargo.BusinessLayer.Extensions;
+using MultiShop.Cargo.DataAccessLayer.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Database Context
+builder.Services.AddDbContext<CargoContext>();
+
+// Repositories - Extensions
+builder.Services.ConfigureRepositoryRegistration();
+// Services - Extensions
+builder.Services.ConfigureServiceRegistration();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
