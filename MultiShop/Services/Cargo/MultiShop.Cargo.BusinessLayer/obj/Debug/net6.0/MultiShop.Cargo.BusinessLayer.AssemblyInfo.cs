@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8004f34424479fbfe1955746bddefbb1cb7c029")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a5425af90e25844c5791958c9e5f8d344f15e15")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

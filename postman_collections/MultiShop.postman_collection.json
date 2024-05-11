@@ -50,6 +50,125 @@
 				"url": "https://localhost:7072/api/Addresses"
 			},
 			"response": []
+		},
+		{
+			"name": "Cargo - CargoCompanies > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7073/api/CargoCompanies"
+			},
+			"response": []
+		},
+		{
+			"name": "Cargo - CargoCompanies {id} > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7073/api/CargoCompanies/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Cargo - CargoCompanies > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CargoCompanyName\":\"Deneme Kargo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7073/api/CargoCompanies"
+			},
+			"response": []
+		},
+		{
+			"name": "Cargo - CargoCompanies > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CargoCompanyId\":3,\r\n    \"CargoCompanyName\":\"PTT Kargo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7073/api/CargoCompanies"
+			},
+			"response": []
+		},
+		{
+			"name": "Cargo - CargoCompanies > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CargoCompanyId\":3,\r\n    \"CargoCompanyName\":\"PTT Kargo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7073/api/CargoCompanies?id=5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7073",
+					"path": [
+						"api",
+						"CargoCompanies"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

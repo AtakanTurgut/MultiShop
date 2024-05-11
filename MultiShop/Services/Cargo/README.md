@@ -56,3 +56,12 @@ Use this commands for the `Migration Operations`:
     > del .\Migrations\
     ? A
 ```
+
+#### https://localhost:7073/api/CargoCompanies - PUT
+Body - raw - JSON
+```json
+{
+    "CargoCompanyId":3,
+    "CargoCompanyName":"PTT Kargo"
+}
+```
