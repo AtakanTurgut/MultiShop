@@ -169,6 +169,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Basket > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7074/api/Baskets"
+			},
+			"response": []
+		},
+		{
+			"name": "Basket > Admin",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserId\": \"5df76786-9715-4a8b-8761-5abfdfc26360\",\r\n    \"DiscountCode\": \"null\",\r\n    \"DiscountRate\": 0,\r\n    \"BasketItems\":  [\r\n        {\r\n            \"ProductId\": \"abcdef-1\",\r\n            \"ProductName\": \"Bilgisayar\",\r\n            \"Quantity\": 1,\r\n            \"Price\": 28000\r\n        },\r\n        {\r\n            \"ProductId\": \"abcdef-2\",\r\n            \"ProductName\": \"Masa\",\r\n            \"Quantity\": 2,\r\n            \"Price\": 2500\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7074/api/Baskets"
+			},
+			"response": []
 		}
 	]
 }

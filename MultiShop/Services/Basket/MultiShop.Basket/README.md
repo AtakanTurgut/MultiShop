@@ -19,14 +19,6 @@ Name     : BasketDb
 host : 6379
 ```
 
-# DBeaver
-```
-3.
-SQL Server - port 1441
-Username : sa
-Password : Aa123456+
-```
-
 # appsettings.json
 ```json
   "RedisSettings": {
