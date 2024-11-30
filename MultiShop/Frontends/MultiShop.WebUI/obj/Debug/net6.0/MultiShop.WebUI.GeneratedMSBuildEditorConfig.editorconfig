@@ -18,12 +18,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Excalibur\Desktop\MultiService\MultiShop\Frontends\MultiShop.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_CarouselDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nhcm91c2VsRGVmYXVsdFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_CategoriesDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3JpZXNEZWZhdWx0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FeatureDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVEZWZhdWx0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FeatureProductsDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVQcm9kdWN0c0RlZmF1bHRQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FooterDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Zvb3RlckRlZmF1bHRQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_HeadUILayoutPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRVSUxheW91dFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_NavbarUILayoutPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhclVJTGF5b3V0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_OfferDiscountDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX09mZmVyRGlzY291bnREZWZhdWx0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_SpecialOfferDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NwZWNpYWxPZmZlckRlZmF1bHRQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_TopbarUILayoutPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RvcGJhclVJTGF5b3V0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_VendorDefaultPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ZlbmRvckRlZmF1bHRQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Error.cshtml]
@@ -32,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/UILayout/_UILayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlMYXlvdXRcX1VJTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Excalibur/Desktop/MultiService/MultiShop/Frontends/MultiShop.WebUI/Views/_ViewImports.cshtml]
